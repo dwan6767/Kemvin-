@@ -6,14 +6,14 @@
 # **ESP32 Universal Multitasker **
 
 ## **Project Overview**
-This project uses an **ESP32** microcontroller to create a multi-functional device with a sliding UI interface displayed on an **OLED screen**. The device is equipped with multiple operational modes, including:
+This project uses an **ESP32** microcontroller to create a multi-functional device with a basic interface displayed on an **OLED screen**. The device is equipped with multiple operational modes, including:
 - **Wi-Fi Network Scanning**
 - **IR Signal Reception and Transmission**
 - **PWM Control**
 - **Sensor Sensing**
 - **Analog Sensing**
 
-The user can navigate through these modes using three buttons (**Up**, **Down**, and **Select**) while viewing a graphical interface that slides left and right between modes. Each mode is represented by its own logo displayed on an OLED screen. Additionally, UART communication is used to exchange data with another device, such as an **Arduino Uno**. The project also features a buzzer to provide audio feedback.
+The user can navigate through these modes using three buttons (**Up**, **Down**, and **Select**) while viewing a graphical interface that goes up and down between modes. Each mode is represented by its own name displayed on an OLED screen. Additionally, UART communication is used to exchange data with another device and sensors. The project also features a buzzer to provide audio feedback.
 
 ## **Hardware Requirements**
 - **ESP32 Development Board**
@@ -28,9 +28,9 @@ The user can navigate through these modes using three buttons (**Up**, **Down**,
 - **Battery Monitoring Circuit** (optional, for low battery interrupts)
 
 ## **Features**
-### **1. User Interface (UI) with Slide Transitions**
-- The main interface consists of **sliding tabs**, each representing a different operational mode. Users can navigate through the tabs by pressing the **Up** and **Down** buttons, and select a mode using the **Select** button.
-- Each tab contains its own graphical **logo**, which slides in and out during transitions.
+### **1. User Interface (UI) with vertical Transitions**
+- The main interface consists of **vertical tabs**, each representing a different operational mode. Users can navigate through the tabs by pressing the **Up** and **Down** buttons, and select a mode using the **Select** button.
+
 
 ### **2. Operational Modes**
 #### **Wi-Fi Network Scanning**
