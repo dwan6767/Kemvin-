@@ -118,8 +118,7 @@ Ensure the following libraries are installed in your Arduino IDE:
 - Improve **battery monitoring** by providing real-time updates on battery voltage.
 
 ## **License**
-This project is licensed under the MIT License. Feel free to modify and use the code for your own projects.
-
+. Feel free to modify and use the code for your own projects.
 ## **Contributing**
 Contributions are welcome! Feel free to submit a pull request or open an issue for any bug reports or feature requests.
 
