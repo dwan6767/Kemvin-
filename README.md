@@ -3,7 +3,7 @@ Here’s a comprehensive **README** for your project based on the information an
 
 ---
 
-# **ESP32 Multimode UI Project**
+# **ESP32 Universal Multitasker **
 
 ## **Project Overview**
 This project uses an **ESP32** microcontroller to create a multi-functional device with a sliding UI interface displayed on an **OLED screen**. The device is equipped with multiple operational modes, including:
